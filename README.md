@@ -1,8 +1,23 @@
-# React + Vite
+This is a demo project that showcases the integration of Google Charts in React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+1. Clone the repository in your local machine by running the following command
+```
+git clone https://github.com/ToobaJamal/google-charts-in-react.git
+```
+2. Navigate to the project directory
+```
+cd google-charts-in-react
+```
+3. Run the following commands
+   ```
+   npm install
+   ```
+   ```
+   npm run dev
+   ```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. Click on the Update data button to see how the data changes.
+2. Click on bars/ data points to see how select event works.
+3. Try changing the data, adding more charts or connecting charts with an external data source
